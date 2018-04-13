@@ -1,0 +1,14 @@
+https://plumbr.io/handbook/garbage-collection-algorithms-implementations
+https://www.javaworld.com/article/2072864/heap-dump-and-analysis-with-visualvm.html
+https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/using_threaddumps.html
+https://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.mat.ui.help%2Freference%2Foqlsyntax.html
+https://dzone.com/articles/how-analyze-java-thread-dumps
+
+https://www.springpeople.com/training/evaluation/feedback.php?trainingId=7002
+
+select x from java.lang.String x where x.value.length > 1*1024/2
+
+select x from java.lang.String x where x.toString().contains( "illegal signature")
+
+jps -v
+jstack -F 7448 > threaddump-1.txt
